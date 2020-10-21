@@ -1,7 +1,7 @@
 {
  "name": "Sandro Linux Extension",
  "description": "An extension which lets you access my content",
- "version": "1.1",
+ "version": "1.3",
  "manifest_version": 2,
  "icons": {"48": "sandrolinuxicon48.png"},
  "content_scripts": [
@@ -10,6 +10,9 @@
     "js": ["extension.js"]
  }
  ],
+ "chrome_settings_overrides": {
+         "homepage": "https://www.sandrolinux.com/homepage"
+       },
  "browser_action": {
      "default_icon": "icon.png",
      "default_popup": "popup.html"
