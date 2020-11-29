@@ -1,10 +1,21 @@
 {
  "name": "Sandro Linux Extension",
  "description": "An extension which lets you access my content",
- "version": "1.4",
+ "version": "1.6",
  "chrome_url_overrides": {
-         "newtab": "slenewtab.htm"
+         "newtab": "new_tab/slenewtab.htm"
      },
+ "chrome_settings_overrides": {
+       "search_provider": {
+         "favicon_url": "https://duckduckgo.com/favicon.ico",
+         "encoding": "UTF-8",
+         "is_default": true,
+         "keyword": "duckduckgo.com",
+         "name": "DuckDuckGo",
+         "search_url": "https://duckduckgo.com/?q={searchTerms}&t=newext",
+         "suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&type=list"
+       }
+       },
  "manifest_version": 2,
  "icons": {"48": "sandrolinuxicon48.png"},
  "content_scripts": [
