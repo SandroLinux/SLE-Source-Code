@@ -1,7 +1,7 @@
 {
  "name": "Sandro Linux Extension",
  "description": "An extension which lets you access my content",
- "version": "1.7",
+ "version": "1.9",
  "chrome_url_overrides": {
          "newtab": "new_tab/slenewtab.htm"
      },
@@ -20,7 +20,7 @@
  "icons": {"48": "sandrolinuxicon48.png"},
  "content_scripts": [
  {
-    "matches": ["<all_urls>"],
+    "matches": ["*://www.sandrolinux.com/*"],
     "js": ["extension.js"]
  }
  ],
