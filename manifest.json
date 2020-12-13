@@ -1,7 +1,7 @@
 {
  "name": "Sandro Linux Extension",
  "description": "An extension which lets you access my content",
- "version": "1.9",
+ "version": "2.1",
  "chrome_url_overrides": {
          "newtab": "new_tab/slenewtab.htm"
      },
