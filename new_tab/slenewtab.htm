@@ -22,6 +22,7 @@
   z-index: -1;
   transition: 0.5;
 }
+
   .button{
     background: #ffbb00;
     cursor: pointer;
@@ -31,7 +32,35 @@
     <body>
         <script src="main.js"></script>
         <H1><u>Homepage</u></H1>
-        <iframe src="https://duckduckgo.com/search.html?prefill=Search DuckDuckGo&bgcolor=000000" style="overflow:hidden;margin:0;padding:0;width:408px;height:40px;" frameborder="0"></iframe>
+        <H2><u>Search</u></H2>
+        <form method="get" action="https://www.duckduckgo.com/">
+          <input id="duckduckgosearch" size="30" name="q" placeholder="Search with DuckDuckGo">
+          <input type="submit" value="Search">
+        </form>
+        <form method="get" action="https://search.privacytools.io/searx/">
+          <input id="duckduckgosearch" size="30" name="q" placeholder="Search with Searx">
+          <input type="submit" value="Search">
+        </form>
+        <form method="get" action="https://www.mojeek.com/search">
+          <input id="duckduckgosearch" size="30" name="q" placeholder="Search with Mojeek">
+          <input type="submit" value="Search">
+        </form>
+        <form method="get" action="https://ecosia.org/search">
+          <input id="duckduckgosearch" size="30" name="q" placeholder="Search with Ecosia">
+          <input type="submit" value="Search">
+        </form>
+        <form method="get" action="https://startpage.com/search">
+          <input id="duckduckgosearch" size="30" name="q" placeholder="Search with Startpage">
+          <input type="submit" value="Search">
+        </form>
+        <form method="get" action="https://www.qwant.com/">
+          <input id="duckduckgosearch" size="30" name="q" placeholder="Search with Qwant">
+          <input type="submit" value="Search">
+        </form>
+        <form method="get" action="https://www.egerin.com/">
+          <input id="duckduckgosearch" size="30" name="q" placeholder="Search with Egerin (In Kurdish)">
+          <input type="submit" value="Search">
+        </form>
         <H2><u>Sandrolinux.com</u></H2>
         <a href="https://www.sandrolinux.com/">
         <button class="button">Go to sandrolinux.com</button>

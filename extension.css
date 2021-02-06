@@ -1,6 +1,8 @@
 body{
+  box-sizing: content-box;
   background-color:black;
   font-family:Verdana, Geneva, sans-serif;
+  color: white;
 }
 a{
   text-decoration: none;
