@@ -2,7 +2,7 @@
  "name": "Sandro Linux Extension",
  "short_name": "SLE",
  "description": "An extension which lets you access my content",
- "version": "2.7",
+ "version": "2.7.1",
      "commands": {
       "_execute_browser_action": {
         "suggested_key": {
