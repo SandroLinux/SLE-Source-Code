@@ -2,11 +2,7 @@
  "name": "Sandro Linux Extension",
  "short_name": "SLE",
  "description": "An extension which lets you access my content",
- "version": "2.6.2",
- "homepage_url": "https://www.sandrolinux.com/sle",
- "chrome_url_overrides": {
-         "newtab": "new_tab/slenewtab.htm"
-     },
+ "version": "2.7",
      "commands": {
       "_execute_browser_action": {
         "suggested_key": {
@@ -18,29 +14,17 @@
      "developer": {
       "name": "Oscar Sanderson"
      },
- "chrome_settings_overrides": {
-       "search_provider": {
-         "favicon_url": "https://duckduckgo.com/favicon.ico",
-         "encoding": "UTF-8",
-         "is_default": true,
-         "keyword": "duckduckgo.com",
-         "name": "DuckDuckGo",
-         "search_url": "https://duckduckgo.com/?q={searchTerms}&t=newext",
-         "suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&type=list"
-       }
-       },
  "manifest_version": 2,
- "icons": {"48": "sandrolinuxicon48.png"},
+ "icons": {"48": "images/sandrolinuxicon48.png"},
  "content_scripts": [
  {
     "matches": ["*://www.sandrolinux.com/*"],
-    "js": ["extension.js"]
+    "js": ["scripts/extension.js"]
  }
  ],
  "browser_action": {
-     "browser_style": true,
-     "default_icon": "icon.png",
-     "default_popup": "popup.html",
+     "default_icon": "images/icon.png",
+     "default_popup": "pages/popup.html",
      "default_title": "Click for access to links to my content"
  }
 }
