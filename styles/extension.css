@@ -3,6 +3,7 @@ body{
   background-color:black;
   font-family:Verdana, Geneva, sans-serif;
   color: white;
+  overflow-wrap:break-word;
 }
 a{
   text-decoration: none;
@@ -18,4 +19,7 @@ a:hover{
 
 a:visited{
   color:#FF4500;
+}
+.n {
+  white-space: pre-line;
 }

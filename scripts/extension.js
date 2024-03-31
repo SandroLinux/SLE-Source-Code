@@ -1,1 +1,1 @@
-document.getElementById("extension").innerHTML = "SLE is installed!";
+document.getElementById("newSLE").innerHTML = "SLE 3.0 is installed!";
